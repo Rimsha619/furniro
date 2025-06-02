@@ -84,6 +84,7 @@ ul li {
 .cut {
   text-decoration: line-through;
   color: gray;
+  padding-left: 10px;
 }
 
 .productdetails {
@@ -92,8 +93,9 @@ ul li {
   gap: 20px;
   margin-top: 20px;
 }
-
-
+.detail{
+  padding-left: 10px;
+}
 .pana {
   background-color: #FCF8F3;
 }
