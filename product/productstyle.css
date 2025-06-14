@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -30,7 +31,6 @@ ul li {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navlinks {
@@ -52,7 +52,7 @@ ul li {
   padding-right: 20px;
 }
 .bgcolor {
-  background-color: #F9F1E7;
+  background-color: #f9f1e7;
 }
 
 .bannerfooter {
@@ -60,137 +60,165 @@ ul li {
   align-items: center;
   padding: 10px 10px;
   gap: 10px;
-   font-family: Arial, Helvetica, sans-serif;
 }
-.bannerfooterline{
+.linee {
+  padding-left: 30px;
+}
+.lines {
+  position: relative;
+}
+.lines::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: black;
+  top: 0;
+  left: -11px;
+}
+.bannerfooterline {
   border-right: solid black 1px;
 }
-.bannertextcolor{
-   color: #898989;
+.bannertextcolor {
+  color: #898989;
 }
-.productdetail{
+.productdetail {
   margin-top: 30px;
   display: flex;
-  align-items: center;
-   font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.details{
+.details {
   padding-left: 70px;
 }
-.productheading{
+.productheading {
   font-size: xx-large;
   font-style: normal;
 }
-.price{
+.price {
   color: #898989;
   padding-top: 5px;
 }
-.rating{
+.rating {
   display: flex;
   align-items: center;
   gap: 10px;
   padding-top: 5px;
 }
-.review{
+.review {
   color: #898989;
 }
-.para{
+.para {
   padding-top: 10px;
 }
-.size{
+.size {
   color: #898989;
   padding-top: 15px;
 }
-.sizes{
-   display: flex;
+.sizes {
+  display: flex;
   align-items: center;
   gap: 20px;
   padding-top: 15px;
 }
-.large{
-  background-color: #B88E2F;
+.large {
+  background-color: #b88e2f;
   padding: 10px;
   color: white;
 }
-.xl{
-  background-color: #F9F1E7;
+.xl {
+  background-color: #f9f1e7;
   padding: 10px;
 }
-.color{
+.color {
   color: #898989;
   padding-top: 15px;
 }
-.pickcolor{
+.pickcolor {
   display: flex;
   align-items: center;
   gap: 10px;
   padding-top: 15px;
 }
-.cart{
+.cart {
   display: flex;
   align-items: center;
   gap: 20px;
   margin-top: 30px;
 }
-.add{
+.add {
   display: flex;
   align-items: center;
   gap: 20px;
   border: 1px solid #898989;
   padding-left: 10px;
-   padding-right: 10px;
+  padding-right: 10px;
   padding-bottom: 5px;
   padding-top: 5px;
   border-radius: 10px;
 }
-.compare{
+.compare {
   display: flex;
   align-items: center;
   gap: 20px;
   border: 1px solid black;
   padding-left: 10px;
-   padding-right: 10px;
+  padding-right: 10px;
   padding-bottom: 5px;
   padding-top: 5px;
   border-radius: 10px;
 }
-.hr{
+.hr {
   margin-top: 30px;
 }
-.tags{
-   display: flex;
+.tags {
+  display: flex;
   align-items: center;
-  gap: 20px;
+  row-gap: 20px;
+  column-gap: 20px;
   margin-top: 30px;
   color: #898989;
 }
-.icons{
+.tags p {
+  padding-bottom: 5px;
+}
+.icons {
   display: flex;
   align-items: center;
   gap: 20px;
+  margin-top: 10px;
 }
-.description{
+.icons i {
+  font-size: 20px;
+  color: black;
+}
+.description {
   display: flex;
   text-align: center;
+  justify-content: center;
   gap: 20px;
-  font-family: Arial, Helvetica, sans-serif;
   margin-top: 30px;
-  font-style: normal;
 }
-.information{
- color: #898989;
+.description h2 {
+  font-size: 40px !important;
+  color: #898989;
+  padding: 10px 0px;
+  font-weight: lighter;
 }
-.description-para{
+
+.information {
+  color: #898989;
+}
+.description-para {
   padding-top: 10px;
   color: #898989;
 }
-.sofas{
+.sofas {
   display: flex;
   align-content: center;
   gap: 20px;
   margin-top: 30px;
 }
-.related{
+.related {
   margin-top: 30px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -203,7 +231,7 @@ ul li {
 }
 
 .bg {
-  background-color: #F4F5F7;
+  background-color: #f4f5f7;
   padding-bottom: 15px;
 }
 
@@ -215,11 +243,15 @@ ul li {
   color: #898989;
   padding: 5px 5px;
 }
-.button{
-  margin-top: 30px;
-  border: 1px solid #B88E2F;
-  color: #B88E2F;
+.button {
+  width: fit-content;
+  margin-top: 30px !important;
+  border: 1px solid #b88e2f;
+  color: #b88e2f;
   align-items: center;
+  padding: 10px 20px;
+  margin: 0 auto;
+  cursor: pointer;
 }
 .footersections {
   display: flex;
@@ -246,7 +278,7 @@ ul li {
 
 .color {
   padding-bottom: 20px;
-  color: #9F9F9F;
+  color: #9f9f9f;
   font-family: Arial, Helvetica, sans-serif;
 }
 
