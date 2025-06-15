@@ -193,20 +193,20 @@ ul li {
 }
 .description {
   display: flex;
-  text-align: center;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   margin-top: 30px;
+}
+.description-size{
+  font-size: 40px !important;
+  padding: 10px 0px;
+  font-weight: lighter;
 }
 .description h2 {
   font-size: 40px !important;
   color: #898989;
   padding: 10px 0px;
   font-weight: lighter;
-}
-
-.information {
-  color: #898989;
 }
 .description-para {
   padding-top: 10px;
