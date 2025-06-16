@@ -16,7 +16,6 @@
 a {
   text-decoration: none;
 }
-
 ul li {
   list-style: none;
 }
@@ -76,6 +75,45 @@ ul li {
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
+}
+.move{
+  width: 20%;
+}
+.comparison-para{
+  text-decoration: underline;
+  color: #727272;
+  padding-top: 10px;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.productheading {
+  font-size: large;
+  font-style: normal;
+}
+.price {
+  color: #898989;
+  padding-top: 5px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 5px;
+}
+.review {
+  color: #898989;
+}
+.choose{
+  background-color: #B88E2F;
+  border-radius: 10px;
+   padding: 5px 10px;
+}
+.addproduct{
+  margin-top: 50px;
 }
 
 .jumbo {
