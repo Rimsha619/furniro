@@ -62,12 +62,17 @@ ul li {
 .bannertext {
   position: absolute;
   top: 160px;
-  left: 620px;
+  left: 580px;
 }
-
+.logo-img{
+    padding-left: 80px;
+}
 .cartname {
-  font-size: 30px;
-  padding-bottom: 5px;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+.center{
+      text-align: center;
 }
 
 .bold {

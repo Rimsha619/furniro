@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -30,14 +31,12 @@ ul li {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navlinks {
   display: flex;
   align-items: center;
   gap: 30px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navlinks li a {
@@ -63,8 +62,20 @@ ul li {
 .bannertext {
   position: absolute;
   top: 160px;
-  left: 620px;
-  font-family: Arial, Helvetica, sans-serif;
+  left: 600px;
+}
+
+.logo-img {
+  padding-left: 40px;
+}
+
+.shopname {
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.center {
+  text-align: center;
 }
 
 .bold {
@@ -87,7 +98,6 @@ ul li {
   display: flex;
   align-items: center;
   gap: 20px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .bannerfooter2 {
@@ -95,7 +105,6 @@ ul li {
   display: flex;
   align-items: center;
   gap: 20px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .whitebutton {
@@ -220,29 +229,24 @@ ul li {
 
 .footerlogo {
   padding-left: 40px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footerpara {
   margin-top: 30px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footerpara2 {
   margin-top: 10px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .color {
   padding-bottom: 20px;
   color: #9F9F9F;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .sectioncolor {
   padding-top: 20px;
   font-size: small;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .email {
