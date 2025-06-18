@@ -77,13 +77,37 @@ ul li {
 .bold {
   font-weight: bold;
 }
-
-.checkout {
+.hero{
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.font-color{
+    color:  #9F9F9F;
+    padding-top: 10px;
+}
+.add {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  gap: 100px;
+  gap: 50px;
   margin-top: 50px;
+}
+.information{
+  margin-top: 20px;
+  width: 50%;
+}
+.part{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 30px;
+  margin-top: 30px;
+  width: 100%;
+}
+.details{
+    width: 50%;
+    margin-top: 20px;
 }
 .fields{
     padding-top: 15px;
@@ -91,61 +115,20 @@ ul li {
 }
 .input{
     padding: 10px;
-}
-.bill{
-    margin-bottom: 20px;
-}
-.cartbanner {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-.all-inputs input{
-    width: 100%;
-}
-.total{
-    width: 40%;
-}
-.cart-total {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 20px;
-}
-.main{
-    font-weight: bold;
-}
-.prouct-quantity {
-  color: #9F9F9F;
-}
-
-.total-price {
-  color: #B88E2F;
-  font-weight: bold;
-}
-.hr{
-    margin: 30px;
-}
-.decoration{
-    padding-bottom: 10px;
-}
-.bank {
-  color: #9F9F9F;
-  padding-bottom: 10px;  
-}
-.policy{
-    font-weight: bold;
+    padding-right: 100px;
+    border-radius: 5px;
+    border: 1px solid #898989;
 }
 .btn {
+    background-color: #B88E2F;
+    color: white;
     text-align: center;
-  border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 20px;
   padding: 10px;
-  width: 70%;
+  width: 30%;
   margin-left: 30px;
 }
-
 .jumbo {
   background-color: #F9F1E7;
   display: flex;
