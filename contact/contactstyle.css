@@ -1,196 +1,210 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 30px;
-  padding-right: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 ul li {
-  list-style: none;
+    list-style: none;
 }
 
 .head {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .navlinks {
-  display: flex;
-  align-items: center;
-  gap: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 .navlinks li a {
-  color: #18191f;
-  font-size: 17px;
+    color: #18191f;
+    font-size: 17px;
 }
 
 .icon {
-  display: flex;
-  gap: 30px;
-  padding-right: 20px;
+    display: flex;
+    gap: 30px;
+    padding-right: 20px;
 }
 
 .banner img {
-  width: 100%;
+    width: 100%;
 }
 
 .banerimg {
-  margin-top: -200px;
-  position: relative;
+    margin-top: -200px;
+    position: relative;
 }
 
 .bannertext {
-  position: absolute;
-  top: 160px;
-  left: 600px;
+    position: absolute;
+    top: 160px;
+    left: 600px;
 }
-.logo-img{
+
+.logo-img {
     padding-left: 60px;
 }
+
 .cartname {
-  font-size: 50px;
-  padding-bottom: 10px;
+    font-size: 50px;
+    padding-bottom: 10px;
 }
-.center{
-      text-align: center;
+
+.center {
+    text-align: center;
 }
+
 .bold {
-  font-weight: bold;
+    font-weight: bold;
 }
-.hero{
+
+.hero {
     margin-top: 30px;
     justify-content: center;
     text-align: center;
 }
-.font-color{
-    color:  #9F9F9F;
+
+.font-color {
+    color: #9F9F9F;
     padding-top: 10px;
 }
+
 .add {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  gap: 50px;
-  margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 50px;
+    margin-top: 50px;
 }
-.information{
-  margin-top: 20px;
-  width: 50%;
+
+.information {
+    margin-top: 20px;
+    width: 50%;
 }
-.part{
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  gap: 30px;
-  margin-top: 30px;
-  width: 100%;
+
+.part {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 30px;
+    margin-top: 30px;
+    width: 100%;
 }
-.details{
+
+.details {
     width: 50%;
     margin-top: 20px;
 }
-.fields{
+
+.fields {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.input{
+
+.input {
     padding: 10px;
     padding-right: 100px;
     border-radius: 5px;
     border: 1px solid #898989;
 }
+
 .btn {
     background-color: #B88E2F;
     color: white;
     text-align: center;
-  border-radius: 5px;
-  margin-top: 20px;
-  padding: 10px;
-  width: 30%;
-  margin-left: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 30%;
+    margin-left: 30px;
 }
+
 .jumbo {
-  background-color: #F9F1E7;
-  display: flex;
-  justify-content: center;
-  padding: 40px;
-  margin-top: 30px;
-  gap: 50px;
+    background-color: #F9F1E7;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 30px;
+    gap: 50px;
 }
 
 .section {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sectioncontent {
-  padding-left: 10px;
+    padding-left: 10px;
 }
 
 .sectionpara {
-  color: #898989;
-  padding-top: 5px;
+    color: #898989;
+    padding-top: 5px;
 }
 
 .footersections {
-  display: flex;
-  justify-content: center;
-  gap: 120px;
-  padding-bottom: 20px;
-  margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding-bottom: 20px;
+    margin-top: 50px;
 }
 
 .footerlogo {
-  padding-left: 40px;
+    padding-left: 40px;
 }
 
 .footerpara {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .footerpara2 {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 .color {
-  padding-bottom: 20px;
-  color: #9F9F9F;
+    padding-bottom: 20px;
+    color: #9F9F9F;
 }
 
 .sectioncolor {
-  padding-top: 20px;
-  font-size: small;
+    padding-top: 20px;
+    font-size: small;
 }
 
 .email {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .email2 {
-  text-decoration: underline;
-  padding-left: 20px;
+    text-decoration: underline;
+    padding-left: 20px;
 }
 
 .lastpart {
-  padding: 20px 20px;
+    padding: 20px 20px;
 }
