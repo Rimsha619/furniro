@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navlinks li a {
+  color: #18191f;
+  font-size: 17px;
+}
+
+.icon {
+  display: flex;
+  gap: 30px;
+  padding-right: 20px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banerimg {
+  margin-top: -200px;
+  position: relative;
+}
+
+.bannertext {
+  position: absolute;
+  top: 160px;
+  left: 620px;
+}
+
+.cartname {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.checkout {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 100px;
+  margin-top: 30px;
+}
+.fields{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.input{
+    padding: 10px;
+}
+.bill{
+    margin-bottom: 20px;
+}
+.cartbanner {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.all-inputs input{
+    width: 100%;
+}
+.total{
+    width: 40%;
+}
+.cart-total {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+.main{
+    font-weight: bold;
+}
+.prouct-quantity {
+  color: #9F9F9F;
+}
+
+.total-price {
+  color: #B88E2F;
+  font-weight: bold;
+}
+.hr{
+    margin: 30px;
+}
+.decoration{
+    padding-bottom: 10px;
+}
+.bank {
+  color: #9F9F9F;
+  padding-bottom: 10px;  
+}
+.policy{
+    font-weight: bold;
+}
+.btn {
+    text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 70%;
+  margin-left: 30px;
+}
+
+.jumbo {
+  background-color: #F9F1E7;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin-top: 30px;
+  gap: 50px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectioncontent {
+  padding-left: 10px;
+}
+
+.sectionpara {
+  color: #898989;
+  padding-top: 5px;
+}
+
+.footersections {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+.footerlogo {
+  padding-left: 40px;
+}
+
+.footerpara {
+  margin-top: 30px;
+}
+
+.footerpara2 {
+  margin-top: 10px;
+}
+
+.color {
+  padding-bottom: 20px;
+  color: #9F9F9F;
+}
+
+.sectioncolor {
+  padding-top: 20px;
+  font-size: small;
+}
+
+.email {
+  text-decoration: underline;
+}
+
+.email2 {
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
+.lastpart {
+  padding: 20px 20px;
+}
