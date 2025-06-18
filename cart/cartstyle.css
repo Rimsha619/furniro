@@ -16,6 +16,7 @@
 a {
   text-decoration: none;
 }
+
 ul li {
   list-style: none;
 }
@@ -30,14 +31,12 @@ ul li {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navlinks {
   display: flex;
   align-items: center;
   gap: 30px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navlinks li a {
@@ -64,60 +63,82 @@ ul li {
   position: absolute;
   top: 160px;
   left: 620px;
-  font-family: Arial, Helvetica, sans-serif;
 }
+
+.cartname {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
 .bold {
   font-weight: bold;
 }
-.comparison {
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.cartbanner {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: #F9F1E7;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.cartdetail {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.add {
+  color: #9F9F9F;
+  font-size: small;
+}
+
+.div1 {
+  border: 1px solid #9F9F9F;
+  text-align: center;
+  width: 5%;
+}
+
+.total {
+  background-color: #F9F1E7;
+  text-align: center;
+  width: 20%;
+  padding: 30px;
+}
+
+.cart-total {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
 }
-.move{
-  width: 20%;
+
+.total-price {
+  color: #9F9F9F;
 }
-.comparison-para{
-  text-decoration: underline;
-  color: #727272;
-  padding-top: 10px;
+
+.actual-price {
+  color: #B88E2F;
 }
-.details {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  gap: 20px;
-}
-.img-bg{
-   background-color: #f9f1e7;
-   height: 130px;
-   border-radius: 10px;
-}
-.productheading {
-  font-size: large;
-  font-style: normal;
-}
-.price {
-  color: #898989;
-  padding-top: 5px;
-}
-.rating {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding-top: 5px;
-}
-.review {
-  color: #898989;
-}
-.choose{
-  background-color: #B88E2F;
+
+.btn {
+  border: 1px solid black;
   border-radius: 10px;
-   padding: 5px 10px;
-}
-.addproduct{
-  margin-top: 50px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 70%;
+  margin-left: 30px;
 }
 
 .jumbo {
@@ -153,29 +174,24 @@ ul li {
 
 .footerlogo {
   padding-left: 40px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footerpara {
   margin-top: 30px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footerpara2 {
   margin-top: 10px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .color {
   padding-bottom: 20px;
   color: #9F9F9F;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .sectioncolor {
   padding-top: 20px;
   font-size: small;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .email {
